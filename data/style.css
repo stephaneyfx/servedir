@@ -1,0 +1,25 @@
+body {
+    font-family: "Source Sans Pro", "Calibri", sans-serif;
+}
+
+th, td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.5em;
+}
+
+th {
+    font-weight: bold;
+}
+
+th.size, td.size {
+    text-align: right;
+}
+
+tr:nth-child(even) {
+    background-color: beige;
+}
+
+h1 {
+    font-size: 1.5em;
+}
